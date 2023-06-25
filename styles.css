@@ -1,0 +1,76 @@
+
+    body{
+        background-color: #a58fd8;
+        font-family: sans-serif;
+    }
+    .container {
+      background-color: #a58fd8;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 20px;
+      text-align: center;
+      width:100%;
+      height:50%;
+    }
+    .logo-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left:600px;
+      align-items: center;
+    }
+    .logo {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    .team-name {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 250px;
+      margin-left: -415px;
+    }
+    .slogan {
+      font-size: 18px;
+      margin-left: -415px;
+    }
+    
+    /* Other CSS rules remain the same */
+
+.team-member {
+    /* Existing styles */
+    margin-top:0px;
+      background-color: #670d7e;
+      height:500px;
+      width:100%;
+      padding-top:0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+  
+  .member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .name {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .team-title{
+    margin-bottom:0px;
+    margin-left:2px;
+    background-color: #670d7e;
+  }
+  
+
+
